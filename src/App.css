@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.flex{
+  display: flex;
+  align-items: center;
+}
+nav{
+  background: black;
+  color: #e7e7e7;
+  justify-content: space-around;
+  padding: 10px;
+}
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.container{
+  width: 100vw;
+ text-align: center;
+  margin: 50px 0;
+}
+textarea{
+  width: 50vw;
+  height: 300px;
+}
+button{
+  margin:10px;
+  padding: 8px;
+  background: #000;
+  color: #e7e7e7;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
