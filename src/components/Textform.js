@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 
+
 export default function Textform(props) {
+
+
     const [text,setText] = useState();
+
     const upperCase = () =>{
         let newText = text.toUpperCase();
         setText(newText);
@@ -28,6 +32,7 @@ newData+=i;
      
         setText(e.target.value)
     }
+ 
   return (
 <div className='container'>
 <textarea onChange={handleOnChange} value={text}></textarea>
@@ -38,9 +43,7 @@ newData+=i;
 <button onClick={RemoveSpace}>Remove Space</button>
 <button onClick={() =>  navigator.clipboard.writeText(text)}>Copy Text</button>
 </div>
-<div className='datainfo'>
-{/* <h4> Length: {text.length} Words: {text.split(" ").length}</h4> */}
-</div>
+
 </div>
   )
 }

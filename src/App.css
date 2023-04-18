@@ -13,6 +13,10 @@ nav li {
   display: inline-block;
   margin: 0 10px;
 }
+nav li a{
+  color: #fff;
+  text-decoration: none;
+}
 .container{
   width: 100vw;
  text-align: center;
@@ -30,4 +34,17 @@ button{
   outline: none;
   border: none;
   cursor: pointer;
+}
+.about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ height: 60vh;
+}
+.img-section{
+  width: 30%;
+}
+.detail-section{
+  width: 60%;
 }
